@@ -19,7 +19,7 @@ export const Line = styled.div`
 
 export const LineLabel = styled.div`
   width: 100%;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   position: relative;
   padding-left: 45px;

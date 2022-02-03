@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Title = styled.div`
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
 `;
