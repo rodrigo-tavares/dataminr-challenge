@@ -56,8 +56,8 @@
               "title": "Max users",
               "value": false,
               "maxValue": 100,
-              "initialValue": 0,
-              "selectedValue": 30
+              "selectedValue": 30,
+              "frequency": 10
             }
           ]
         }
@@ -74,8 +74,8 @@
             "title": "Alert Rules",
             "value": false,
             "maxValue": 100,
-            "initialValue": 0,
-            "selectedValue": 30
+            "selectedValue": 30,
+            "frequency": 10
           }
       ]
     }

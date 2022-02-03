@@ -16,7 +16,7 @@ export const ContainerLine = styled.div`
 export const ActionButtons = styled.div`
   position: relative;
   display: flex;
-  width: 29%;
+  width: 35%;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
@@ -33,7 +33,7 @@ export const Line = styled.div`
 `;
 
 export const LineLabel = styled.div`
-  width: 100%;
+  width: 65%;
   font-size: 14px;
   text-transform: uppercase;
   position: relative;

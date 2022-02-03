@@ -13,12 +13,15 @@ export const GroupLineFeature = ({ childs }) => {
       <ChildrenContainerGroup>
         {children.map((child, key) => (
           <LineFeature
-          key={key}
+            key={key}
             name={child.title}
             value={child.value}
             isGroupLine={true}
             hasChildren={false}
             onChange={() => {}}
+            maxValue={child.maxValue}
+            selectedValue={child.selectedValue}
+            frequency={child.frequency}
           />
         ))}
       </ChildrenContainerGroup>
@@ -40,6 +43,9 @@ export const GroupLineFeature = ({ childs }) => {
             isGroupLine={true}
             hasChildren={validChildren(child.children)}
             onChange={(value) => onToggleChange(key, value)}
+            maxValue={child.maxValue}
+            selectedValue={child.selectedValue}
+            frequency={child.frequency}
           />
           {validChildren(child.children) &&
             childrenEnabled[key] &&
