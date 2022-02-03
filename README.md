@@ -23,8 +23,8 @@ src/
 |    |- dashboard/
 |       |- index.js _______________________ # Sample component
 |       |- styles.js _______________________ # Styles for component
-|  |- tests/
-|  |- mocks/
+|  |- __tests__/
+|  |- __mocks__/
 |  |- assets/
 |  |- shared/
 ```
