@@ -13,8 +13,6 @@ export const ContainerLine = styled.div`
   justify-content: space-between;
 `;
 
-// TODO: check media queries
-
 export const ActionButtons = styled.div`
   position: relative;
   display: flex;

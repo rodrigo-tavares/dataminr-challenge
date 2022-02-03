@@ -12,4 +12,8 @@ export const Container = styled.div`
   border-radius: 5px;
   align-self: center;
   justify-content: space-evenly;
+
+  @media(max-width: 800px) {
+    flex-direction: column;
+  }
 `;

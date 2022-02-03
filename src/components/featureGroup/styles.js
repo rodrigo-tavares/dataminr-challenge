@@ -13,6 +13,11 @@ export const Container = styled.div`
   align-items: flex-start;
   ${({hasItems}) => hasItems ? `width: 100%;` : `width: 33%;`}
   margin-bottom: 2rem;
+
+  @media(max-width: 800px) {
+    flex-direction: column;
+    width: 100%;
+  }
 `;
 
 export const GridLines = styled.div`
@@ -21,4 +26,7 @@ export const GridLines = styled.div`
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
+  @media(max-width: 800px) {
+    flex-direction: column;
+  }
 `;
