@@ -1,20 +1,37 @@
 import styled from "styled-components";
 
 export const ContainerLine = styled.div`
-  flex: 0 0 32.5%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   position: relative;
+  ${({ isGroupLine }) => (isGroupLine ? `flex: 1;` : `flex: 0 0 32.5%;`)}
+  background-color: #18191d;
+  border: 2px solid #1b1c20;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+// TODO: check media queries
+
+export const ActionButtons = styled.div`
+  position: relative;
+  display: flex;
+  width: 29%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  ${({ isGroupLine }) => isGroupLine && `padding-right: 20px;`}
 `;
 
 export const Line = styled.div`
-  background-color: #18191d;
   height: 60px;
-  width: 100%;
-  border-radius: 5px;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid #1b1c20;
 `;
 
 export const LineLabel = styled.div`
@@ -25,7 +42,7 @@ export const LineLabel = styled.div`
   padding-left: 45px;
   font-weight: 700;
 
-  @media only screen and (min-width: $screen-sm) {
+  @media only screen and (min-width: 720px) {
     font-size: 16px;
   }
 

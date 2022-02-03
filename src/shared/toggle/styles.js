@@ -5,9 +5,8 @@ export const ToggleButton = styled.div`
   height: 18px;
   border-radius: 9px;
   background-color: #707070;
-  position: absolute;
+  position: relative;
   right: 20px;
-  top: 25px;
   cursor: pointer;
 
   &:before {

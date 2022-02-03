@@ -5,10 +5,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   padding: 2rem;
   color: #ffffff;
   width: 90%;
   border-radius: 5px;
   align-self: center;
+  justify-content: space-evenly;
 `;

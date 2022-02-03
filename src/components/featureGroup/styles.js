@@ -11,7 +11,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  ${({hasItems}) => hasItems && `width: 100%;`}
+  ${({hasItems}) => hasItems ? `width: 100%;` : `width: 33%;`}
   margin-bottom: 2rem;
 `;
 
