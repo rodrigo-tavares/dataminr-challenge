@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
-import { getFormData } from "../../data/featureFlagData";
-import Dashboard from "../dashboard";
+import { getFormData } from "../data/featureFlagData";
+import Dashboard from "../components/dashboard";
 
 const DefaulStyle = styled.div`
   display: flex;
