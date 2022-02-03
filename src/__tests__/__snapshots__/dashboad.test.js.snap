@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard component renders correctly 1`] = `
+<div
+  className="sc-bqiRlB haKyjn"
+>
+  <div
+    className="sc-bdvvtL dXbRqN"
+  >
+    No data provided!
+  </div>
+</div>
+`;

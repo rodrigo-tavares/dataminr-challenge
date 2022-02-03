@@ -39,10 +39,10 @@ src/
 
 3- start dev server using `npm start`, then open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-3- build and bundling your resources for production `build`.
+3- build and bundling your resources for production `npm build`.
 
 4- Launches the test runner in the interactive watch mode.
-`yarn test`
+`npm test`
 
 #### Technologies used
 

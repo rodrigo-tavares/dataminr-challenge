@@ -33,7 +33,7 @@ export const Line = styled.div`
 `;
 
 export const LineLabel = styled.div`
-  width: 65%;
+  width: 80%;
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
