@@ -15,8 +15,8 @@ export const MultiSelect = ({ values, selectedValue }) => {
 
   const toggleSelect = () => setOpen(!isOpen);
 
-  const handleItemClick = (id) => {
-    selectedItem === id ? setSelectedItem(null) : setSelectedItem(id);
+  const handleItemClick = (value) => {
+    setSelectedItem(value);
     setOpen(!isOpen);
   };
 
