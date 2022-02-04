@@ -31,9 +31,7 @@ src/
 
 ### Installation
 
-1- Clone the boilerplate repo
-
-`git clone https://github.com/rodrigo-tavares/dataminr-challenge.git`
+1- Clone the repo `git clone https://github.com/rodrigo-tavares/dataminr-challenge.git`
 
 2- `npm install` to install npm packages
 
